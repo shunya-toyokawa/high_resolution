@@ -7,6 +7,7 @@ torchvision==0.8.2
 
 ## Installation
 ```
+wget https://github.com/xinntao/Real-ESRGAN/releases/download/v0.1.0/RealESRGAN_x4plus.pth -P experiments/pretrained_models
 pip install basicsr
 # facexlib and gfpgan are for face enhancement
 pip install facexlib
